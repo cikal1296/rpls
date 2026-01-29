@@ -1,7 +1,6 @@
 {
   "name": "gemini-ai-web",
   "version": "1.0.0",
-  "type": "module",
   "description": "Web AI menggunakan Gemini API",
   "scripts": {
     "dev": "vercel dev",

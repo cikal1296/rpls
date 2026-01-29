@@ -1,6 +1,6 @@
-import { GoogleGenerativeAI } from "@google/generative-ai";
+const { GoogleGenerativeAI } = require("@google/generative-ai");
 
-export default async function handler(req, res) {
+module.exports = async (req, res) => {
   // Enable CORS
   res.setHeader('Access-Control-Allow-Credentials', true);
   res.setHeader('Access-Control-Allow-Origin', '*');
@@ -53,4 +53,4 @@ export default async function handler(req, res) {
       details: error.message 
     });
   }
-}
+};
