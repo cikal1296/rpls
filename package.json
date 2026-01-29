@@ -1,0 +1,13 @@
+{
+  "name": "gemini-ai-web",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Web AI menggunakan Gemini API",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.1.3"
+  }
+}
